@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&family=Lobster&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Bitter", "Lobster"
+}
+
+body{
+    background: url(pic/bg.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 450px;
+    min-height: 450px;
+    background-color: rgb(236, 211, 155);
+    border-radius: 6px;
+    box-shadow: 1px,1px,5px rgb(236, 211, 155);
+    padding: 40px 30px;
+}
+
+table{
+    transform: translate(-50%,-50%);
+    top: 50%;;
+    left: 50%;
+    position: absolute;
+}
+
+table .td{
+    color: rgb(92, 71, 40);
+}
+
+input{
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 10px 0px 10px 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+}
+
+input:active{
+    border-bottom: 1px solid rgb(143, 110, 28);
+}
+
+button{
+    background: black;
+    font-size: 19px;
+    color: rgb(119, 96, 61);
+    border: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.25s ease all;
+}
+
+button:hover{
+    background: rgb(206, 145, 88);
+    color:rgb(119, 96, 61);
+}
